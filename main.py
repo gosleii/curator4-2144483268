@@ -8,14 +8,14 @@ def your_handler(message):
 
 @bot.message_handler(commands=["school_1"])
 def your_handler(message):
-    bot.send_message(message.chat.id, "*ссылка: https://beeschool.team*", parse_mod="Markdown")
+    bot.send_message(message.chat.id, "*ссылка: https://beeschool.team*", parse_mode="Markdown")
 
 @bot.message_handler(commands=["school_2"])
 def your_handler(message):
-    bot.send_message(message.chat.id, "*ссылка: https://100points.ru/student/courses*", parse_mod="Markdown")
+    bot.send_message(message.chat.id, "*ссылка: https://100points.ru/student/courses*", parse_mode="Markdown")
 
 @bot.message_handler(commands=["school_3"])
 def your_handler(message):
-    bot.send_message(message.chat.id, "*ссылка: https://edu.sirius.online/#/*", parse_mod="Markdown")
+    bot.send_message(message.chat.id, "*ссылка: https://edu.sirius.online/#/*", parse_mode="Markdown")
 
 bot.infinity_polling()
